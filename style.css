@@ -1,0 +1,110 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url('/bg.jpg');
+    color: #fff;
+}
+
+#left {
+    display: inline-block;
+    position: absolute;
+    top: 20px;
+    left: 32px;
+    /* border: 2px solid green; */
+}
+
+#left img {
+    width: 90px;
+    filter: invert(100%);
+}
+
+#left div {
+    text-align: center;
+    -webkit-text-stroke: 1px #fff;
+    color: transparent;
+}
+
+#mid {
+    display: block;
+    width: 34%;
+    margin: 25px auto;
+    /* border: 2px solid greenyellow; */
+}
+
+.nav {
+    display: inline-block;
+}
+
+.nav li {
+    display: inline-block;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+.nav li a {
+    text-transform: uppercase;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+
+.nav li a:hover,
+.nav li a.active {
+    color: #908b8b;
+    text-decoration: underline;
+}
+
+#right {
+    display: inline-block;
+    position: absolute;
+    top: 38px;
+    right: 32px;
+    /* border: 2px solid royalblue; */
+}
+
+.btn {
+    text-transform: uppercase;
+    background-color: black;
+    color: #fff;
+    padding: 4px 14px;
+    border: 2px solid blue;
+    border-radius: 10px;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+.btn:hover {
+    background-color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.continar {
+    width: 36%;
+    margin: 106px 90px;
+    padding: 76px;
+    border: 2px solid gainsboro;
+    border-radius: 20px;
+}
+.continar h1{
+    text-align: center;
+    text-transform: uppercase;
+    -webkit-text-stroke: 2px #fff;
+    color: transparent;
+}
+
+.form-group input {
+    display: block;
+    width: 450px;
+    margin: 5px auto;
+    text-align: center;
+    padding: 5px;
+    font-size: 18px;
+    border: 2px solid #141414;
+    border-radius: 10px;
+}
+.continar button{
+    display: block;
+    width: 450px;
+    margin: 20px auto;
+}
